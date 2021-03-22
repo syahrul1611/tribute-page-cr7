@@ -1,0 +1,112 @@
+html {
+    font-size: 10px;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222;
+}
+nav h3 {
+    font-size: 28px;
+    color: #ddd;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin-right: 10px;
+}
+nav li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ddd;
+}
+nav a:hover {
+    color: rgb(100, 100, 100);
+}
+
+#main {
+    display: grid;
+    grid-template-rows: 300px "img" auto;
+    grid-template-columns: 100vw;
+    justify-items: center;
+}
+
+/* title */
+#title {
+    color: #222;
+    text-align: center;
+}
+#title h1 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+}
+#title p {
+    font-size: 2rem;
+}
+
+/* img */
+#img-div {
+    background-color: #eee;
+    padding: 15px;
+}
+img {
+    max-width: 70vw;
+    display: block;
+}
+#img-caption {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* info */
+#tribute-info {
+    width: 80vw;
+    padding-top: 50px;
+}
+.early-life h3 {
+    font-size: 2.5rem;
+    border-bottom: 1px solid #222;
+    padding-left: 15px;
+}
+.early-life p {
+    font-size: 1.8rem;
+}
+.career h3 {
+    font-size: 2.5rem;
+    border-bottom: 1px solid #222;
+    padding-left: 15px;
+}
+.club-name {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.sporting-cp p,
+.manchester-united p,
+.real-madrid p,
+.juventus p {
+    font-size: 1.7rem;
+}
+
+/* tribute link */
+#tribute-link {
+    text-decoration: none;
+    color: darkblue;
+}
+#tribute-link:hover {
+    color: darkslategrey;
+}
